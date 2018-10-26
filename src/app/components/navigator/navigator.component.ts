@@ -9,12 +9,14 @@ export class NavigatorComponent implements OnInit {
 
   // Explict
   private nameAppString: string;
+  private mainTitleString: string;
 
   constructor() { }
 
   ngOnInit() {
 
     this.nameAppString = "UngBaker";
+    this.mainTitleString = "Main Page"
 
   } // ngOnInit
 
